@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "楷体";
+  text-size-adjust: 100%; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+input{-webkit-appearance:none;}
+
+html,body,.wrap{
+  height:100%;
+  width:100%;
+}
+
+.wrap{
+  display:flex;
+  flex-direction:column;
+  background:#fff;
+}
+
+header{
+  width:100%;
+  height:.4rem;
+  text-align:center;
+  line-height:.4rem;
+  input{
+    width:80%;
+    height:.3rem;
+    border:none;
+    border-radius:.3rem;
+    background:#EFF2F6;
+    &:-webkit-input-placeholder{
+      color:#BFC6D0;
+    }
+  }
+}
+
+section{
+  flex:1;
+  overflow-y:scroll;
+}
+
+dl{
+  position:relative;
+  width:100%;
+  height:1.3rem;
+  padding:0 .12rem;
+  border-bottom:1px solid #ccc;
+  margin-top:.15rem;
+  dt{
+    position:absolute;
+    width:40%;
+    top:0rem;
+    left:.12rem;
+    img{
+      width:90%;
+      height:auto;
+    }
+  }
+  dd{
+    padding-left:41%;
+    h3{
+      font-size:.16rem;
+      overflow:hidden;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+      font-weight:800;
+      line-height:.3rem;
+    }
+    .hui{
+      font-size:.12rem;
+      color:#999999;
+      position: relative;
+      span{
+        color:#FF8569;
+        display:inline-block;
+        border:1px solid #FF8569;
+        padding:-0.04rem;
+        font-size:.12rem;
+        position:absolute;
+        right:0;
+      }
+    } 
+    .ora{
+      color:#F56539;
+      line-height:.4rem;
+      span{
+        color:#F56539;
+        font-size:.12rem;
+      }
+    }
+    .kuang{
+      font-size:.12rem;
+      color:#7F8892;
+      span{
+        background:#FF8B41;
+        border-radius:.07rem 0;
+        color:#fff;
+        display:inline-block;
+        padding:.01rem .03rem;
+        font-size:.12rem;
+      }em{
+        color:#FF8B41;
+        font-size:.12rem;
+      }
+    }
+  }
+}
